@@ -1,5 +1,30 @@
-Basic Linux Commands
+# Basic Linux Commands
 
-Print current work directory
+###  Print current work directory
 `$ pwd`
+
+### Check current user
+`$ whoami`
+
+### List files and directories with details
+`$ ls -l`
+
+
+### Show IP address
+`$ show addr show`
+or
+`$ ip a `
+
+### Show memory details
+`$ free -m`
+
+#### Show mounted file systems
+`$ df -h`
+
+###  print out a file text or config file
+`$ cat /etc/hosts`
+
+### Show mounted filesystems like a tree 
+`findmnt`
+
 
