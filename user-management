@@ -1,0 +1,24 @@
+# User management
+
+Changing password age
+```
+$ chage -m 1 -M 28 -W5 -I 3 -E 2021-12-31 user1
+```
+
+Options
+```
+m -> minimum days user can change passwd again
+M -> how many days user must change the passwd
+W -> warning before expire the passwd 
+I -> Inactivite days, how many days user can login and change passwd after expiring
+E -> acct expired
+```
+
+Check the man page for help
+```
+$ man 5 shadow
+```
+
+To change password age - easier way
+$ chage -l user1
+
